@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+    <title>Amogelang Sehlako - Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">TECHEVO FOUNDER</div>
+            <ul class="nav-links">
+                <li><a href="home">ABOUT</a></li>
+                <li><a href="/control">AI PROJECTS</a></li>
+                <li><a href="contact">CONTACT</a></li>
+                <li><a href="#photography">Q&A</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>AMOGELANG SEHLAKO</h1>
+        <h2>Innovative Technologist & Aspiring Robotics Engineer</h2>
+        <p>Where Innovation Meets Ingenuity: Robotics, AI, and Beyond.</p>
+        
+        <nav>
+            <ul>
+                <li>
+                    <button class="nav-button" data-target="about">About</button>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <button class="nav-button" data-target="experience">Experience</button>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <button class="nav-button" data-target="projects">Projects</button>
+                    <div class="line"></div>
+                </li>
+            </ul>
+        </nav>
+
+        <section id="about" class="content-section active">
+            <h3>About Me</h3>
+            <p>Welcome to my world of innovation and discovery! I'm an IT professional with a passion for creating smart solutions that connect technology with human needs. With a background in robotics programming, web development, and a knack for mathematical problem-solving, I thrive at the intersection of creativity and technology.</p>
+            
+            <h4>🎯 My Mission</h4>
+            <p>To build technology that empowers people, inspires innovation, and creates meaningful experiences.</p>
+            
+            <h4>💡 What Inspires Me</h4>
+            <p>The ever-changing tech landscape and its potential to solve problems no one has thought of yet. I draw inspiration from challenges, turning complex issues into elegant, data-driven solutions.</p>
+            
+            <h4>📌 The Highlights</h4>
+            <ul>
+                <li>🚀 <strong>Robotics Innovator:</strong> Developed an autonomous payload robot for mining applications.</li>
+                <li>🌍 <strong>Sustainability Advocate:</strong> Won 3rd place in the TCS Sustainathon for addressing water wastage.</li>
+                <li>🛠️ <strong>Creative Developer:</strong> Designed dynamic websites, dashboards, and platforms to optimize workflows.</li>
+            </ul>
+            
+            <h4>📖 Fun Facts About Me</h4>
+            <p>I see math as an art form, and my favorite canvas is a well-written algorithm. My dream project? A smart system that harmonizes human creativity with machine precision. When I’m not coding, you’ll find me exploring the latest in property tech or reimagining how AI can enhance everyday life.</p>
+            
+            <h4>🔗 Let’s Connect</h4>
+            <p>Think we’d make a great team or have an exciting idea to discuss? Reach out here. Together, let’s bring ideas to life!</p>
+            
+        </section>
+
+        <section id="experience" class="content-section">
+            <h3>Experience</h3>
+            <p>I am a graduate looking for internships and project opportunities...</p>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h3>Projects</h3>
+            <div class="projects-wrapper">
+                <button class="scroll-button left" id="scroll-left">&#10094;</button>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <img src="static/images/aerogrow.png" alt="Domposer">
+                        <h4>AeroGrow</h4>
+                        <p>This farming application helps tackle the challenge of providing tailored, practical farming advice to farmers, regardless of their location or resources. By using simple data inputs like crop type, land size, and location, the app generates personalized farming tips and recommendations that are relevant to each farmer’s specific conditions. . This helps farmers increase crop yield, reduce resource waste, and manage challenges like drought or pests more effectively. By supporting better farming practices, the app not only empowers farmers to improve productivity and income but also contributes to a more stable and efficient food supply, which benefits food security overall.</p>
+                        <div class="project-icons">
+                            <a href="https://aerogrow-education-app.onrender.com/"><img src="static/images/website.png" alt="Website"></a>
+                            <a href="https://github.com/jj-amogelang/AeroGrow"><img src="static/icons/github.svg" alt="GitHub"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="static/images/dumela.png" alt="Bay.js">
+                        <h4>DumelaHealth</h4>
+                        <p>This healthcare app addresses the critical challenge of limited healthcare access in underserved communities, especially in remote or low-resource areas. Many communities lack timely access to medical facilities or clinics, which can lead to delays in receiving care for treatable conditions and often results in worsened health outcomes. By enabling users to report symptoms and receive health advice or prompt mobile clinic dispatch, this app helps bridge the gap between underserved populations and essential healthcare services.</p>
+                        <div class="project-icons">
+                            <a href="#"><img src="static/images/website.png" alt="Website"></a>
+                            <a href="#"><img src="static/icons/github.svg" alt="GitHub"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="static/images/phase.png" alt="Cookiemunch">
+                        <h4>PHASE</h4>
+                        <p>The Phase website is clothing brand is a cutting-edge, visually captivating platform that blends style with functionality. It serves as more than just an online store—it's a digital representation of your brand’s essence, designed to inspire and engage. Featuring a sleek homepage, detailed product catalogs, and seamless e-commerce functionality, the site ensures a smooth shopping experience for your customers. Its responsive design and interactive elements, like hover effects and social media integration, make it both modern and user-friendly. With a compelling "About Us" section and a blog for style inspiration, the Phase website not only showcases your clothing line but also connects with your audience on a deeper level, reflecting the brand’s commitment to elevating every phase of their style journey.</p>
+                        <div class="project-icons">
+                            <a href="#"><img src="static/images/website.png" alt="Website"></a>
+                            <a href="#"><img src="static/icons/github.svg" alt="GitHub"></a>
+                        </div>
+                    </div>
+                    <!-- Add more project cards as needed -->
+                </div>
+                <button class="scroll-button right" id="scroll-right">&#10095;</button>
+            </div>
+        </section>
+
+        <footer>
+            <div class="social-icons">
+                <a href="https://github.com/jj-amogelang"><img src="static/icons/github.svg" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/amogelang-sehlako-b2246b281/"><img src="static/icons/linkedin.svg" alt="LinkedIn"></a>
+                <a href="https://x.com/Juss_Amo_"><img src="static/icons/twitterx.svg" alt="Twitter"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

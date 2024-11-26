@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Robotic Arm Simulator</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">TECHEVO FOUNDER</div>
+            <ul class="nav-links">
+                <li><a href="/">ABOUT</a></li>
+                <li><a href="control">AI PROJECTS</a></li>
+                <li><a href="contact">CONTACT</a></li>
+                <li><a href="#photography">Q&A</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Robotic Arm Simulator</h1>
+        <div class="script-links">
+            <div class="script-link">
+                <img src="{{ url_for('static', filename='images/3d.png') }}" alt="3D Robot Wave Preview">
+                <h4><a href="/run/3d-robot-wave">Run 3D Robot Wave</a></h4>
+                <p>This simulation demonstrates a 3D robotic arm performing a wave motion. The arm's joints are controlled using sine wave functions to create smooth, periodic movements. The simulation visualizes the forward kinematics of the arm, showing how the joint angles translate into the end effector's position in 3D space.</p>
+            </div>
+            <div class="script-link">
+                <img src="{{ url_for('static', filename='images/3d.png') }}" alt="3D Robot Wave Preview">
+                <h4><a href="/run/robot-wave-update">Updated Robot Wave</a></h4>
+                <p>This simulation demonstrates a 3D robotic arm performing a wave motion. The arm's joints are controlled using sine wave functions to create smooth, periodic movements. The simulation visualizes the forward kinematics of the arm, showing how the joint angles translate into the end effector's position in 3D space.</p>
+            </div>
+            <div class="script-link">
+                <img src="{{ url_for('static', filename='images/4d unregular.png') }}" alt="4D Robot Unregular Preview">
+                <h4><a href="/run/4d-robot-unregular">Run 4D Robot Unregular</a></h4>
+                <p>This simulation showcases a 4D robotic arm with irregular joint movements. The arm's joints are controlled using a combination of sine and cosine functions to create complex, non-repetitive motions. The simulation highlights the forward kinematics of the arm, illustrating how the joint angles affect the end effector's trajectory in 4D space.</p>
+            </div>
+            <div class="script-link">
+                <img src="{{ url_for('static', filename='images/4d.png') }}" alt="4D Robot Preview">
+                <h4><a href="/run/4d-robot">Run 4D Robot</a></h4>
+                <p>This simulation features a 4D robotic arm performing coordinated movements. The arm's joints are controlled using predefined angle sequences to achieve specific tasks. The simulation demonstrates the forward kinematics of the arm, showing how the joint angles determine the end effector's position and orientation in 4D space.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
